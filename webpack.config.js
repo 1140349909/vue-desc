@@ -54,6 +54,9 @@ module.exports = {
             }, {
                 test: /\.vue$/,
                 loader: 'vue'
+            }, {
+                test: /\.css$/,
+                loader: 'style-loader!css-loader'
             }]
     },
     // 定义模块别名
