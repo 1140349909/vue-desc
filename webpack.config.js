@@ -62,7 +62,7 @@ module.exports = {
     // 定义模块别名
     resolve: {
         //自动扩展文件后缀名，意味着我们require模块可以省略不写后缀名
-        extensions: ['', '.vue', '.js', '.jsx', '.ts', '.tsx', '.json', '.less'],
+        extensions: ['.vue', '.js', '.jsx', '.ts', '.tsx', '.json', '.less'],
         //模块别名定义，方便后续直接引用别名，无须多写长长的地址
         alias: {
             // 定义目录别名, 对应的模块引用可以为 common/config,common/util,common/http
